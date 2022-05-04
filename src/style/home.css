@@ -1,0 +1,24 @@
+#call {
+    height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2em;
+}
+
+.anneliis {
+    height: 600px;
+    background-color: #FFE4E1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.anImg {
+    height: 450px;
+}
+
+.anIntro {
+    max-width: 400px;
+    margin: 20px;
+}
