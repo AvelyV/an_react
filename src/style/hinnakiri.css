@@ -16,7 +16,7 @@ h1 {
 }
 
 .paketid {
-    background-color: #FFDAB9;
+    /* background-color: #FFDAB9; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -24,7 +24,7 @@ h1 {
 }
 
 .offerCard {
-    background-color: white;
+    background-color: #FFDAB9;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -69,10 +69,26 @@ link {
     justify-content: center;
 }
 
-#fantaasia {
-    margin: 40px;
-}
 
 .cardText {
     text-align: left;
+}
+
+.head {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 1px 1px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 40px; */
+    background-image: url('./../img/elf.jpg');
+
+    height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
