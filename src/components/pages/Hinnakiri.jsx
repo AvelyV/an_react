@@ -18,7 +18,7 @@ export default function Hinnakiri() {
       <div className="priceSection">
         <div className="fantaasia head">FANTAASIA FOTOSESSIOONID</div>
         <div className="flex">
-          <img src={elf_image} id="elf"></img>
+          {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">
             <div>
               Fantaasia fotosessioon võib täita Sinu lapsepõlve unistuse, võib
@@ -103,12 +103,15 @@ export default function Hinnakiri() {
           ja soovite fotosid ärilistel eesmärkidel kasutada, võtke minuga
           ühendust aadressil info@anneliisvoore.ee
         </p>
-        <ul>
+
           <p>Paketid ei sisalda: </p>
-          <li>Meiki ja soengut</li>
-          <li>Transpordikulusid</li>
-          <li>Lisafotosid</li>
-        </ul>
+
+          <div>Meiki ja soengut</div>
+          <div>Transpordikulusid</div>
+          <div>Lisafotosid</div>
+          <br></br>
+          <br></br>
+
       </div>
 
       {/*  */}
@@ -116,7 +119,7 @@ export default function Hinnakiri() {
       <div className="priceSection">
         <div className="weddings head">PULMAFOTOD</div>
         <div className="flex">
-          <img src={elf_image} id="elf"></img>
+          {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">
             <div>Sinu elu üks olulisemaid sündmusi on teie pulmapäev. </div>
             <div>
