@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 import './../../style/hinnakiri.css';
-import elf_image from './../../img/elf.jpg';
 
 export default function Hinnakiri() {
   return (
@@ -12,7 +10,7 @@ export default function Hinnakiri() {
       <h1>HINNAKIRI</h1>
       <div id="classNav">
         <Link to="#fantaasia"> Fantaasia</Link>
-        <p>Pulmad</p>
+        <Link to="#pulmad">Pulmad</Link>
         <p>Portree- ja Peresessioonid</p>
       </div>
       <div className="priceSection">
@@ -44,6 +42,7 @@ export default function Hinnakiri() {
             <div>
               Pildid saab klient maksimaalselt kolme nädala jooksul kätte!
             </div>
+            <Button>Vaata Pilte</Button>
             <br></br>
             <p>Fantaasiafotosessiooni saab valida kolme paketi vahel:</p>
           </div>
@@ -117,7 +116,7 @@ export default function Hinnakiri() {
       {/*  */}
 
       <div className="priceSection">
-        <div className="weddings head">PULMAFOTOD</div>
+        <div className="weddings head" id='pulmad'>PULMAFOTOD</div>
         <div className="flex">
           {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">

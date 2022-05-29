@@ -15,7 +15,6 @@
 }
 
 .paketid {
-    /* background-color: #FFDAB9; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -103,6 +102,7 @@ link {
     background-position: center;
     
 }
+
 
 .weddings {
     background-image: url('./../img/wedding.jpg');
