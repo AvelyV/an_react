@@ -73,7 +73,7 @@ link {
 }
 
 .text {
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,17 +90,28 @@ link {
     color: white;
     text-shadow: 2px 1px 1px black;
     font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 40px; */
-    background-image: url('./../img/elf.jpg');
 
-    height: 300px;
+    height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
+}
+
+.weddings {
+    background-image: url('./../img/wedding.jpg');
+}
+
+.fantaasia {
+    background-image: url('./../img/elf.jpg');
+}
+
+.pere {
+    background-image: url('./../img/pere.jpg');
 }

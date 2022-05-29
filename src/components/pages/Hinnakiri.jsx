@@ -97,7 +97,7 @@ export default function Hinnakiri() {
           </div>
         </div>
 
-        <p>
+        <p className='text'>
           Broneerimisel saadetakse teile kataloog saadaolevate kleitide ja
           aksessuaaridega. Need hinnad on ainult erakasutuseks. Kui olete bränd
           ja soovite fotosid ärilistel eesmärkidel kasutada, võtke minuga
@@ -139,6 +139,97 @@ export default function Hinnakiri() {
             </div>
             <br></br>
             <p>Fantaasiafotosessiooni saab valida kolme paketi vahel:</p>
+          </div>
+        </div>
+
+        <div className="paketid">
+          <div className="offerCard">
+            <br></br>
+            <h3>Pakett Mini</h3>
+            <h5>Hind: 200€</h5>
+            <p> Sisaldab:</p>
+
+            <ul>
+              <li className="cardText"> Konsultatsioon </li>
+              <li className="cardText"> Ilupildid kuni 1,5h</li>
+              <li className="cardText"> Tseremoonia (registreerimine) </li>
+              <li className="cardText">
+                {' '}
+                Kõik õnnestunud, täissuuruses töödeldud fotod
+              </li>
+              <li className="cardText"> Veebigalerii fotodega</li>
+            </ul>
+          </div>
+          <div className="offerCard">
+            <br></br>
+            <h3>Pakett Classic </h3>
+            <h5>Hind: 450€</h5>
+            <p> Sisaldab:</p>
+            <ul>
+              <li className="cardText"> Konsultatsioon </li>
+              <li className="cardText"> Ettevalmistus/sättimised </li>
+              <li className="cardText"> Ilupildid kuni 2h</li>
+              <li className="cardText"> Tseremoonia (registreerimine) </li>
+              <li className="cardText"> Grupipildid </li>
+              <li className="cardText"> Õnnitlused </li>
+              <li className="cardText">
+                {' '}
+                Kõik õnnestunud, täissuuruses töödeldud fotod
+              </li>
+              <li className="cardText"> Veebigalerii fotodega</li>
+            </ul>
+          </div>
+
+          <div className="offerCard">
+            <br></br>
+            <h3>Pakett Deluxe</h3>
+            <h5>Hind: 900€</h5>
+            <p> Sisaldab:</p>
+            <ul>
+              <li className="cardText"> Konsultatsioon </li>
+              <li className="cardText"> Ettevalmistus/sättimised </li>
+              <li className="cardText"> Ilupildid kuni 2h</li>
+              <li className="cardText"> Kuni 13h pildistamist </li>
+              <li className="cardText"> Tseremoonia (registreerimine) </li>
+              <li className="cardText"> Grupipildid </li>
+              <li className="cardText"> Õnnitlused </li>
+              <li className="cardText"> Fotostuudio kasutamise võimalus</li>
+              <li className="cardText">
+                {' '}
+                Kõik õnnestunud, täissuuruses töödeldud fotod
+              </li>
+              <li className="cardText"> Veebigalerii fotodega</li>
+              <li className="cardText"> Pildid kätte 30 päevaga</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className="priceSection">
+        <div className="pere head">Portree- ja peresessioonid </div>
+        <div className="flex">
+          {/* <img src={elf_image} id="elf"></img> */}
+          <div className="text">
+            <div>Portree sessioon annab sulle võimaluse luua endale või oma lähedasele personaalsed ametialased või lihtsalt erakordselt kaunid ja kvaliteetsed fotod. Portree sessiooni asukohtadeks   </div>
+            {/* <div>
+              Pulmapäev täis siiraid ja kirevaid emotsioone, kõige lähedasemate
+              inimeste keskel.{' '}
+            </div>
+            <div>
+              Fotograafi päev võib alata koos pruudi soengu ja meigi tegemisega,
+              mil saab juba kerge ootusärevuse ja ettevalmistused üles
+              pildistada.
+            </div>
+            <div>
+              Päeva kõige tähtsam hetk on tseremoonia, kui ühine abielu saab
+              alguse. Fotograafina pean oluliseks kõik emotsioonid ja pilgud
+              pildile püüda, et aastate möödudes oleks kõik värskelt meeles ja
+              sind valdaks tunne, nagu oleks kõik eile toimunud.{' '}
+            </div>
+            <br></br>
+            <p>Fantaasiafotosessiooni saab valida kolme paketi vahel:</p> */}
           </div>
         </div>
 
