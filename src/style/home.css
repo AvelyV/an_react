@@ -1,13 +1,14 @@
 #call {
     height: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin: 100px 0;
     font-size: 2em;
     padding: 30px;
 }
 
 .anneliis {
-    height: 600px;
+    height: 100%;
+    padding: 20px;
     background-color: #FFE4E1;
     display: flex;
     flex-wrap: wrap;
@@ -23,3 +24,10 @@
     max-width: 400px;
     margin: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    #call {
+        font-size: 1.5em;
+        margin: 20px;
+    }
+  }
