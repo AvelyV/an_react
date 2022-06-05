@@ -12,7 +12,7 @@ export default function Slides() {
             className="d-block w-100"
             src={wedding_image}
             alt="First slide"
-            height="900"
+            height="100%"
             />
             <Carousel.Caption>
             <h3>First slide label</h3>
@@ -24,7 +24,7 @@ export default function Slides() {
             className="d-block w-100"
             src={flower_image}
             alt="Second slide"
-            height="900"
+            height="100%"
             />
 
             <Carousel.Caption>
@@ -37,7 +37,7 @@ export default function Slides() {
             className="d-block w-100"
             src={siblings_image}
             alt="Third slide"
-            height="900"
+            height="100%"
             />
 
             <Carousel.Caption>

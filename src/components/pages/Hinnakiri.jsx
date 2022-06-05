@@ -14,7 +14,7 @@ export default function Hinnakiri() {
         <p>Portree- ja Peresessioonid</p>
       </div>
       <div className="priceSection">
-        <div className="fantaasia head">FANTAASIA FOTOSESSIOONID</div>
+        <div className="fantaasia head fancy-text">FANTAASIA FOTOSESSIOONID</div>
         <div className="flex">
           {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">

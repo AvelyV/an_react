@@ -1,0 +1,14 @@
+.about {
+    padding: 50px, 0;
+}
+
+.aboutText {
+    max-width: 700px;
+    padding: 20px;
+}
+
+.aboutImage {
+    align-self: center;
+    max-width: 500px;
+}
+
