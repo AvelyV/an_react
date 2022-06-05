@@ -8,6 +8,7 @@ export default function About() {
   return (
     <Container>
       <h1>FOTOGRAAFIST</h1>
+      <br></br>
       <div className="flex about">
         
         <div className=' aboutImage'>

@@ -30,3 +30,10 @@ button.btn.btn-primary:hover{
 .fancy-text {
   font-family: 'Dancing Script', cursive;
 }
+
+.navLink {
+  text-decoration: none;
+  margin: 10px;
+  text-transform: uppercase;
+  color: black;
+}
