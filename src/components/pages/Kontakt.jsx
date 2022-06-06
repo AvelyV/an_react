@@ -5,6 +5,7 @@ export default function Kontakt() {
   return (
 
     <Container>
+        <h1 className='pageTitle'>Kontakt</h1>
         <p>
             Aitäh, et tunned huvi minu tööde kohta!
         </p>

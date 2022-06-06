@@ -1,7 +1,4 @@
 
-
-
-
 * {
     text-align: center;
 }
@@ -22,7 +19,7 @@
 }
 
 .offerCard {
-    background-color: #FFDAB9;
+    background-color: #d3beaa;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -48,6 +45,7 @@
     0 20px 20px rgba(0,0,0,0.12);
 }
 
+
 link {
     text-decoration: none;
 }
@@ -72,11 +70,12 @@ link {
 }
 
 .text {
-    max-width: 600px;
-    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 20px; */
 }
 
 
@@ -88,7 +87,7 @@ link {
     font-size: 3rem;
     color: white;
     text-shadow: 2px 1px 1px black;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 
     display: flex;
     justify-content: center;
@@ -99,7 +98,6 @@ link {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
 

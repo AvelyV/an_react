@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div id="footer">
         <div className='footer-links'>
-      <p>© 2022 all rights reserved</p>
+  
       <Link to="/" className="navLink">
         Avaleht
       </Link>
@@ -23,6 +23,7 @@ export default function Footer() {
       <Link to="/kontakt" className="navLink">
         Kontakt
       </Link>
+      <p>© 2022 all rights reserved</p>
       </div>
     </div>
   );

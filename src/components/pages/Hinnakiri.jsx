@@ -7,17 +7,13 @@ import './../../style/hinnakiri.css';
 export default function Hinnakiri() {
   return (
     <>
-      <h1>HINNAKIRI</h1>
-      <div id="classNav">
-        <Link to="#fantaasia"> Fantaasia</Link>
-        <Link to="#pulmad">Pulmad</Link>
-        <p>Portree- ja Peresessioonid</p>
-      </div>
+      <h1 className='pageTitle'>HINNAKIRI</h1>
       <div className="priceSection">
-        <div className="fantaasia head fancy-text">FANTAASIA FOTOSESSIOONID</div>
+        <div className="fantaasia head">FANTAASIA FOTOSESSIOONID</div>
         <div className="flex">
           {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">
+            <br></br>
             <div>
               Fantaasia fotosessioon võib täita Sinu lapsepõlve unistuse, võib
               Sulle olulist eluetappi aidata hiljem meenutada või Sinu maagilist
@@ -102,6 +98,7 @@ export default function Hinnakiri() {
           ja soovite fotosid ärilistel eesmärkidel kasutada, võtke minuga
           ühendust aadressil info@anneliisvoore.ee
         </p>
+        <br></br>
 
           <p>Paketid ei sisalda: </p>
 
@@ -120,6 +117,7 @@ export default function Hinnakiri() {
         <div className="flex">
           {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">
+            <br></br>
             <div>Sinu elu üks olulisemaid sündmusi on teie pulmapäev. </div>
             <div>
               Pulmapäev täis siiraid ja kirevaid emotsioone, kõige lähedasemate
@@ -211,6 +209,7 @@ export default function Hinnakiri() {
         <div className="flex">
           {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">
+            <br></br>
             <div>Portree sessioon annab sulle võimaluse luua endale või oma lähedasele personaalsed ametialased või lihtsalt erakordselt kaunid ja kvaliteetsed fotod. Portree sessiooni asukohtadeks   </div>
             {/* <div>
               Pulmapäev täis siiraid ja kirevaid emotsioone, kõige lähedasemate

@@ -7,12 +7,12 @@ import './../../style/about.css'
 export default function About() {
   return (
     <Container>
-      <h1>FOTOGRAAFIST</h1>
+      <h1 className='pageTitle'>FOTOGRAAFIST</h1>
       <br></br>
       <div className="flex about">
         
-        <div className=' aboutImage'>
-          <img src={anneliis_image} className="anImg"></img>
+        <div >
+          <img src={anneliis_image} className=' aboutImage'></img>
         </div>
         <div className='aboutText'>
           <p>
@@ -54,6 +54,8 @@ export default function About() {
           </p>
         </div>
       </div>
+      <br></br>
+      <br></br>
     </Container>
   );
 }

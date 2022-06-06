@@ -1,10 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik:wght@300&display=swap');
+
+* {
+  /* font-family: 'Kdam Thmor Pro', sans-serif; */
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+}
 
 button.btn.btn-primary{
   width: 200px;
   margin: 0 auto;
   background-color: #fbc493 ;
   border-color: #fbc493;
+  margin: 20px;
 }
 
 button.btn.btn-primary:hover{
@@ -27,13 +42,23 @@ button.btn.btn-primary:hover{
   justify-content: center;
 }
 
-.fancy-text {
+/* .fancy-text {
   font-family: 'Dancing Script', cursive;
-}
+} */
 
 .navLink {
   text-decoration: none;
   margin: 10px;
   text-transform: uppercase;
   color: black;
+}
+
+.pageTitle {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+Link:hover {
+  text-decoration: underline;
 }

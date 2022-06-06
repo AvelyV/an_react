@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
-import Nav from './components/Nav';
+import NavComponent from './components/NavComponent';
 import Footer from './components/Footer'
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -12,7 +12,7 @@ import Hinnakiri from './components/pages/Hinnakiri';
 function App() {
   return (
     <BrowserRouter >
-      <Nav />
+      <NavComponent />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/fotograafist" element={<About />} />
