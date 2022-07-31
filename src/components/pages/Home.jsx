@@ -39,7 +39,7 @@ export default function Home() {
           </Button>
         </div>
       </div>
-      <div className="tagasiside">Tagasiside</div>
+      {/* <div className="tagasiside">Tagasiside</div> */}
     </>
   );
 }

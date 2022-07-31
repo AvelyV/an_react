@@ -27,22 +27,22 @@ export default function Portfolio() {
       <div className='flex'>
         <img alt='viking' src={p1} className='pImage'></img>
         <img alt='girl' src={p2} className='pImage'></img>
-        <img alt='girl' src={p3} className='pImage'></img>
-        <img alt='viking' src={p4} className='pImage'></img>
-        <img alt='viking' src={p5} className='pImage'></img>
-        <img alt='viking' src={p6} className='pImage'></img>
-        <img alt='viking' src={p7} className='pImage'></img>
-        <img alt='viking' src={p8} className='pImage'></img>
-        <img alt='viking' src={p9} className='pImage'></img>
-        <img alt='viking' src={p10} className='pImage'></img>
-        <img alt='viking' src={p11} className='pImage'></img>
-        <img alt='viking' src={p12} className='pImage'></img>
-        <img alt='viking' src={p13} className='pImage'></img>
-        <img alt='viking' src={p14} className='pImage'></img>
-        <img alt='viking' src={p15} className='pImage'></img>
-        <img alt='viking' src={p16} className='pImage'></img>
-        <img alt='viking' src={p17} className='pImage'></img>
-        <img alt='viking' src={p18} className='pImage'></img>
+        <img alt='mom and son' src={p3} className='pImage'></img>
+        <img alt='girl' src={p4} className='pImage'></img>
+        <img alt='girl' src={p5} className='pImage'></img>
+        <img alt='girl' src={p6} className='pImage'></img>
+        <img alt='girl' src={p7} className='pImage'></img>
+        <img alt='woman' src={p8} className='pImage'></img>
+        <img alt='family' src={p9} className='pImage'></img>
+        <img alt='girl' src={p10} className='pImage'></img>
+        <img alt='pregnant woman' src={p11} className='pImage'></img>
+        <img alt='siblings dressed as elfs' src={p12} className='pImage'></img>
+        <img alt='girl in underwear' src={p13} className='pImage'></img>
+        <img alt='girl' src={p14} className='pImage'></img>
+        <img alt='wedding' src={p15} className='pImage'></img>
+        <img alt='ballerina' src={p16} className='pImage'></img>
+        <img alt='christmas elf' src={p17} className='pImage'></img>
+        <img alt='girl' src={p18} className='pImage'></img>
       </div>
     </>
   )
