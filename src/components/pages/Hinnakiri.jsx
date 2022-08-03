@@ -38,7 +38,7 @@ export default function Hinnakiri() {
             <div>
               Pildid saab klient maksimaalselt kolme nädala jooksul kätte!
             </div>
-            <Button>Vaata Pilte</Button>
+            {/* <Button>Vaata Pilte</Button> */}
             <br></br>
             <p>Fantaasiafotosessiooni saab valida kolme paketi vahel:</p>
           </div>
@@ -210,7 +210,9 @@ export default function Hinnakiri() {
           {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">
             <br></br>
-            <div>Portree sessioon annab sulle võimaluse luua endale või oma lähedasele personaalsed ametialased või lihtsalt erakordselt kaunid ja kvaliteetsed fotod. Portree sessiooni asukohtadeks   </div>
+            <div>Portree sessioonid on mõeldud Sulle, kui soovid endast aegumatuid mälestusi luua. 
+                  Portree sessioone saab luua mitmel erineval põhjusel - ettevõtte jaoks, lõpetamise puhul, 
+                  fine art stiilis muinasjutulisemaid pilte või lihtsalt argipäeva portree.</div>
             {/* <div>
               Pulmapäev täis siiraid ja kirevaid emotsioone, kõige lähedasemate
               inimeste keskel.{' '}
@@ -235,28 +237,28 @@ export default function Hinnakiri() {
           <div className="offerCard">
             <br></br>
             <h3>Pakett Mini</h3>
-            <h5>Hind: 200€</h5>
+            <h5>Hind: 45€</h5>
             <p> Sisaldab:</p>
 
             <ul>
-              <li className="cardText"> Konsultatsioon </li>
-              <li className="cardText"> Ilupildid kuni 1,5h</li>
+              <li className="cardText"> 15min pildistamist </li>
+              {/* <li className="cardText"> Ilupildid kuni 1,5h</li>
               <li className="cardText"> Tseremoonia (registreerimine) </li>
               <li className="cardText">
                 {' '}
                 Kõik õnnestunud, täissuuruses töödeldud fotod
               </li>
-              <li className="cardText"> Veebigalerii fotodega</li>
+              <li className="cardText"> Veebigalerii fotodega</li> */}
             </ul>
           </div>
           <div className="offerCard">
             <br></br>
             <h3>Pakett Classic </h3>
-            <h5>Hind: 450€</h5>
+            <h5>Hind: 100€</h5>
             <p> Sisaldab:</p>
             <ul>
-              <li className="cardText"> Konsultatsioon </li>
-              <li className="cardText"> Ettevalmistus/sättimised </li>
+              <li className="cardText"> 30min pildistamist </li>
+              {/* <li className="cardText"> Ettevalmistus/sättimised </li>
               <li className="cardText"> Ilupildid kuni 2h</li>
               <li className="cardText"> Tseremoonia (registreerimine) </li>
               <li className="cardText"> Grupipildid </li>
@@ -265,18 +267,18 @@ export default function Hinnakiri() {
                 {' '}
                 Kõik õnnestunud, täissuuruses töödeldud fotod
               </li>
-              <li className="cardText"> Veebigalerii fotodega</li>
+              <li className="cardText"> Veebigalerii fotodega</li> */}
             </ul>
           </div>
 
           <div className="offerCard">
             <br></br>
             <h3>Pakett Deluxe</h3>
-            <h5>Hind: 900€</h5>
+            <h5>Hind: 155€</h5>
             <p> Sisaldab:</p>
             <ul>
-              <li className="cardText"> Konsultatsioon </li>
-              <li className="cardText"> Ettevalmistus/sättimised </li>
+              <li className="cardText"> 1h pildistamist </li>
+              {/* <li className="cardText"> Ettevalmistus/sättimised </li>
               <li className="cardText"> Ilupildid kuni 2h</li>
               <li className="cardText"> Kuni 13h pildistamist </li>
               <li className="cardText"> Tseremoonia (registreerimine) </li>
@@ -288,7 +290,7 @@ export default function Hinnakiri() {
                 Kõik õnnestunud, täissuuruses töödeldud fotod
               </li>
               <li className="cardText"> Veebigalerii fotodega</li>
-              <li className="cardText"> Pildid kätte 30 päevaga</li>
+              <li className="cardText"> Pildid kätte 30 päevaga</li> */}
             </ul>
           </div>
         </div>
