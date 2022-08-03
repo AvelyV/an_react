@@ -19,6 +19,9 @@ import p15 from './../../img/portfolio/p15.jpg';
 import p16 from './../../img/portfolio/p16.JPG';
 import p17 from './../../img/portfolio/p17.JPG';
 import p18 from './../../img/portfolio/p18.JPG';
+import p19 from './../../img/portfolio/p19.jpg';
+import p20 from './../../img/portfolio/p20.JPG';
+import p21 from './../../img/portfolio/p21.JPG';
 
 export default function Portfolio() {
   return (
@@ -43,6 +46,9 @@ export default function Portfolio() {
         <img alt='ballerina' src={p16} className='pImage'></img>
         <img alt='christmas elf' src={p17} className='pImage'></img>
         <img alt='girl' src={p18} className='pImage'></img>
+        <img alt='ballerina' src={p19} className='pImage'></img>
+        <img alt='christmas elf' src={p20} className='pImage'></img>
+        <img alt='girl' src={p21} className='pImage'></img>
       </div>
     </>
   )
