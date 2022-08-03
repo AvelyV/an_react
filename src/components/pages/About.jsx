@@ -7,7 +7,7 @@ import './../../style/about.css'
 export default function About() {
   return (
     <Container>
-      <h1 className='pageTitle'>FOTOGRAAFIST</h1>
+      <h1 className='pageTitle'>Fotograafist</h1>
       <br></br>
       <div className="flex about">
         

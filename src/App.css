@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
 
 * {
   /* font-family: 'Kdam Thmor Pro', sans-serif; */
@@ -56,7 +58,9 @@ button.btn.btn-primary:hover{
 .pageTitle {
   margin-top: 20px;
   margin-bottom: 30px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-family: 'Tangerine', cursive;
+font-size: 4rem;
 }
 
 Link:hover {

@@ -7,7 +7,7 @@ import './../../style/hinnakiri.css';
 export default function Hinnakiri() {
   return (
     <>
-      <h1 className='pageTitle'>HINNAKIRI</h1>
+      <h1 className='pageTitle'>Hinnakiri</h1>
       <div className="priceSection">
         <div className="fantaasia head">FANTAASIA FOTOSESSIOONID</div>
         <div className="flex">
