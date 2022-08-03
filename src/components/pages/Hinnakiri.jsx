@@ -241,14 +241,14 @@ export default function Hinnakiri() {
             <p> Sisaldab:</p>
 
             <ul>
-              <li className="cardText"> 15min pildistamist </li>
-              {/* <li className="cardText"> Ilupildid kuni 1,5h</li>
-              <li className="cardText"> Tseremoonia (registreerimine) </li>
+              <li className="cardText"> Konsultatsiooni </li>
+              <li className="cardText"> 15min fotosessiooni välitingimustes</li>
+              <li className="cardText"> Juhendamist </li>
               <li className="cardText">
                 {' '}
-                Kõik õnnestunud, täissuuruses töödeldud fotod
+                Kuni 5 töödeldud fotot veebigaleriis
               </li>
-              <li className="cardText"> Veebigalerii fotodega</li> */}
+
             </ul>
           </div>
           <div className="offerCard">
@@ -257,17 +257,11 @@ export default function Hinnakiri() {
             <h5>Hind: 100€</h5>
             <p> Sisaldab:</p>
             <ul>
-              <li className="cardText"> 30min pildistamist </li>
-              {/* <li className="cardText"> Ettevalmistus/sättimised </li>
-              <li className="cardText"> Ilupildid kuni 2h</li>
-              <li className="cardText"> Tseremoonia (registreerimine) </li>
-              <li className="cardText"> Grupipildid </li>
-              <li className="cardText"> Õnnitlused </li>
-              <li className="cardText">
-                {' '}
-                Kõik õnnestunud, täissuuruses töödeldud fotod
-              </li>
-              <li className="cardText"> Veebigalerii fotodega</li> */}
+              <li className="cardText"> 30min fotosessiooni </li>
+              <li className="cardText"> Konsultatsiooni </li>
+              <li className="cardText"> Juhendamist</li>
+              <li className="cardText"> Kuni 20 täissuuruses töödeldud fotot </li>
+              <li className="cardText"> Veebigalerii fotodega </li>
             </ul>
           </div>
 
@@ -277,20 +271,12 @@ export default function Hinnakiri() {
             <h5>Hind: 155€</h5>
             <p> Sisaldab:</p>
             <ul>
-              <li className="cardText"> 1h pildistamist </li>
-              {/* <li className="cardText"> Ettevalmistus/sättimised </li>
-              <li className="cardText"> Ilupildid kuni 2h</li>
-              <li className="cardText"> Kuni 13h pildistamist </li>
-              <li className="cardText"> Tseremoonia (registreerimine) </li>
-              <li className="cardText"> Grupipildid </li>
-              <li className="cardText"> Õnnitlused </li>
-              <li className="cardText"> Fotostuudio kasutamise võimalus</li>
-              <li className="cardText">
-                {' '}
-                Kõik õnnestunud, täissuuruses töödeldud fotod
-              </li>
-              <li className="cardText"> Veebigalerii fotodega</li>
-              <li className="cardText"> Pildid kätte 30 päevaga</li> */}
+              <li className="cardText"> 1h fotosessiooni </li>
+              <li className="cardText"> Konsultatsiooni </li>
+              <li className="cardText"> Juhendamist fotosessioonil </li>
+              <li className="cardText"> Kuni 40 täissuuruses töödeldud foto</li>
+              <li className="cardText"> Veebigalerii fotodega </li>
+
             </ul>
           </div>
         </div>
