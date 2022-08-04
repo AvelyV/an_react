@@ -13,6 +13,7 @@ export default function Hinnad() {
         {/* fantasy section */}
       <div className="pricingSection">
         <hr></hr>
+        <hr></hr>
         <h1>Fantaasia Fotosessioonid</h1>
         <div className="flex text">
           <div>
@@ -112,6 +113,7 @@ export default function Hinnad() {
 
 
       <div className="pricingSection">
+        <hr></hr>
         <hr></hr>
         <h1>Pulmafotod</h1>
         <div className="flex text">
@@ -220,6 +222,7 @@ export default function Hinnad() {
 
 
       <div className="pricingSection">
+        <hr></hr>
         <hr></hr>
         <h1>Portree- ja Peresessioonid</h1>
         <div className="flex">
