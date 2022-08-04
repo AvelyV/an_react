@@ -38,6 +38,7 @@
 .offerCard:hover {
     background-image: url('./../img/siblings.jpg');
     color: white;
+    font-weight: 600;
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     /* background-color: #fbcca2; */
@@ -76,10 +77,6 @@ link {
 .text {
     max-width: 700px;
     margin: 0 auto;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 20px; */
 }
 
 

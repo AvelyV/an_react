@@ -31,6 +31,9 @@ export default function NavComponent() {
               <Link to="/hinnakiri" className="navLink">
                 Hinnakiri
               </Link>
+              <Link to="/hinnad" className="navLink">
+                Hinnad
+              </Link>
               <Link to="/fotograafist" className="navLink">
                 Fotograafist
               </Link>

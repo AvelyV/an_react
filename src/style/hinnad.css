@@ -1,0 +1,67 @@
+.titleDiv {
+    background-image: url('./../img/siblings.jpg');
+    height: 50vh;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.imageTitle {
+    color: white;
+    position:absolute;
+    left: 50px;
+    bottom: 45vh;
+    text-transform: uppercase;
+    
+}
+
+.text {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.paketiPilt {
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 10px 10px rgba(0,0,0,0.12),
+    0 20px 20px rgba(0,0,0,0.12);
+}
+
+.paketiTekst {
+    width: 300px;
+    height: 450px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* max-width: 900px; */
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.fantasy1 {
+    background-image: url('./../img/fantasy.JPG');
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+
+.wedding1 {
+    background-image: url('./../img/wedding.jpg');
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.pere1 {
+    background-image: url('./../img/pere.jpg');
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+
+.pakett {
+    margin: 40px;
+}
+

@@ -8,6 +8,7 @@ import About from './components/pages/About';
 import Kontakt from './components/pages/Kontakt';
 import Portfolio from './components/pages/Portfolio';
 import Hinnakiri from './components/pages/Hinnakiri';
+import Hinnad from './components/pages/Hinnad';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/portfoolio" element={<Portfolio />} />
         <Route path="/hinnakiri" element={<Hinnakiri />} />
         <Route path="/kontakt" element={<Kontakt />} />
+        <Route path="/hinnad" element={<Hinnad/>} />
 
         <Route path="*" element={<h4>Page Not Found</h4>} />
       </Routes>
