@@ -11,15 +11,19 @@ export default function Footer() {
       <div className="footer-links">
         <div>
           <a
-            className='smIcons'
+            className="smIcons"
             href="https://www.instagram.com/anneliisv_photography/"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={instagram_icon} alt="instagram icon"></img>
           </a>
           <a
-            className='smIcons'
+            className="smIcons"
             href="https://www.facebook.com/AVoorePhotography"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={fb_icon} alt="ifacebook icon"></img>
           </a>
         </div>
@@ -39,7 +43,10 @@ export default function Footer() {
         <Link to="/kontakt" className="navLink">
           Kontakt
         </Link>
-        <p>© 2022 all rights reserved</p>
+        <Link to="/hinnad" className="navLink sala">
+        © 2022 all rights reserved
+        </Link>
+        {/* <p>© 2022 all rights reserved</p> */}
       </div>
     </div>
   );
