@@ -17,7 +17,9 @@ export default function Home() {
           <p>
             Olgu selleks fantaasiaküllane fotosessioon või täispikk pulmapäev!
           </p>
-          <Button className="btnLight">Parimad Palad</Button>
+          <Button className="btnLight">        <Link to="/portfoolio" className="navLink">
+          Parimad Palad
+        </Link></Button>
         </div>
       </Container>
       <div className="anneliis">
