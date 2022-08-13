@@ -1,8 +1,9 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import wedding_image from './../img/wedding.jpg'
-import flower_image from './../img/flowers.jpg'
-import siblings_image from './../img/siblings.jpg'
+import mask_image from './../img/mask.JPG'
+import swamp_image from './../img/soo.JPG'
+import baby_image from './../img/baby.JPG'
+import forest_image from './../img/forest.JPG'
 
 export default function Slides() {
   return (
@@ -10,7 +11,7 @@ export default function Slides() {
         <Carousel.Item>
             <img
             className="d-block w-100"
-            src={wedding_image}
+            src={forest_image}
             alt="First slide"
             height="100%"
             />
@@ -22,7 +23,7 @@ export default function Slides() {
         <Carousel.Item>
             <img
             className="d-block w-100"
-            src={flower_image}
+            src={swamp_image}
             alt="Second slide"
             height="100%"
             />
@@ -35,7 +36,7 @@ export default function Slides() {
         <Carousel.Item>
             <img
             className="d-block w-100"
-            src={siblings_image}
+            src={baby_image}
             alt="Third slide"
             height="100%"
             />
@@ -43,6 +44,18 @@ export default function Slides() {
             <Carousel.Caption>
             {/* <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+            </Carousel.Caption>
+        </Carousel.Item>
+
+
+        <Carousel.Item>
+            <img
+            className="d-block w-100"
+            src={mask_image}
+            alt="First slide"
+            height="100%"
+            />
+            <Carousel.Caption>
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>

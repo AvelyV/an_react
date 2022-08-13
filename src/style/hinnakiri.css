@@ -36,7 +36,8 @@
 }
 
 .offerCard:hover {
-    background-image: url('./../img/siblings.jpg');
+    /* background-image: url('./../img/siblings.jpg'); */
+    background-color: rgb(26, 0, 21);
     color: white;
     font-weight: 600;
     background-position: center; /* Center the image */

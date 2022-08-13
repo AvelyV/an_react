@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './../../style/hinnad.css';
-import w1 from './../../img/wedding.jpg';
+// import w1 from './../../img/pulm.JPG';
 
 export default function Hinnad() {
   return (

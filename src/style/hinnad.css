@@ -1,5 +1,6 @@
 .titleDiv {
-    background-image: url('./../img/siblings.jpg');
+    /* background-image: url('./../img/siblings.jpg') */
+    background-color: rgba(2, 0, 15, 0.763);
     height: 50vh;
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -50,7 +51,7 @@
 }
 
 .wedding1 {
-    background-image: url('./../img/wedding.jpg');
+    background-image: url('./../img/pulm.JPG');
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
