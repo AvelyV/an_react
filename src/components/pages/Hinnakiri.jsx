@@ -106,6 +106,9 @@ export default function Hinnakiri() {
           <div>Transpordikulusid</div>
           <div>Lisafotosid</div>
           <br></br>
+
+          <p>Ooteaeg kuni 3 nädalat</p>
+          <br></br>
           <br></br>
 
       </div>
@@ -200,6 +203,8 @@ export default function Hinnakiri() {
           </div>
         </div>
       </div>
+      <br></br>
+      <br></br>
 
 
 
@@ -278,7 +283,11 @@ export default function Hinnakiri() {
 
             </ul>
           </div>
+
+          
         </div>
+        <p>Ooteaeg kuni 3 nädalat</p>
+          <br></br>
       </div>
     </>
   );
