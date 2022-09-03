@@ -28,6 +28,9 @@ export default function NavComponent() {
               <Link to="/portfoolio" className="navLink">
                 Portfoolio
               </Link>
+              <Link to="/StilistikaABC" className="navLink">
+                StilistikaABC
+              </Link>
               <Link to="/hinnakiri" className="navLink">
                 Hinnakiri
               </Link>

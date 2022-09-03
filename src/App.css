@@ -66,3 +66,8 @@ font-size: 4rem;
 Link:hover {
   text-decoration: underline;
 }
+
+.stilisticaImg {
+  margin: 0 20px 0 20px;
+  max-width: 700px;
+}
