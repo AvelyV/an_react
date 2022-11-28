@@ -10,7 +10,7 @@ export default function Hinnakiri() {
       <h1 className='pageTitle'>Hinnakiri</h1>
 
       <div className="priceSection">
-        <div className="fantaasia head">JÕULUSESSIOONIDE HINNAKIRI</div>
+        <div className="xmas head">JÕULUSESSIOONIDE HINNAKIRI</div>
         <div className="flex">
           {/* <img src={elf_image} id="elf"></img> */}
           <div className="text">

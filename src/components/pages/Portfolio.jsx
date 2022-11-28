@@ -23,11 +23,38 @@ import p19 from './../../img/portfolio/p19.jpg';
 import p20 from './../../img/portfolio/p20.JPG';
 import p21 from './../../img/portfolio/p21.JPG';
 
+import j1 from './../../img/portfolio/j1.JPG';
+import j2 from './../../img/portfolio/j2.JPG';
+import j3 from './../../img/portfolio/j3.JPG';
+import j4 from './../../img/portfolio/j4.JPG';
+import j5 from './../../img/portfolio/j5.JPG';
+import j6 from './../../img/portfolio/j6.JPG';
+import j7 from './../../img/portfolio/j7.JPG';
+import j8 from './../../img/portfolio/j8.JPG';
+import j9 from './../../img/portfolio/j9.JPG';
+import j10 from './../../img/portfolio/j10.JPG';
+import j11 from './../../img/portfolio/j11.JPG';
+
 export default function Portfolio() {
   return (
     <>
       <h1 className='pageTitle'>Portfolio</h1>
       <div className='flex'>
+        <img alt='xmas' src={j1} className='pImage'></img>
+        <img alt='xmas' src={j2} className='pImage'></img>
+        <img alt='xmas' src={j3} className='pImage'></img>
+        <img alt='xmas' src={j4} className='pImage'></img>
+        <img alt='xmas' src={j5} className='pImage'></img>
+        <img alt='xmas' src={j6} className='pImage'></img>
+        <img alt='xmas' src={j7} className='pImage'></img>
+        <img alt='xmas' src={j8} className='pImage'></img>
+        <img alt='xmas' src={j9} className='pImage'></img>
+        <img alt='xmas' src={j10} className='pImage'></img>
+        <img alt='xmas' src={j11} className='pImage'></img>
+
+
+
+
         <img alt='viking' src={p1} className='pImage'></img>
         <img alt='girl' src={p2} className='pImage'></img>
         <img alt='mom and son' src={p3} className='pImage'></img>
