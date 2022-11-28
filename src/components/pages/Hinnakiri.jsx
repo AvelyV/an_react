@@ -79,6 +79,7 @@ export default function Hinnakiri() {
               <li className='cardText'>Kuni 2 riietust</li>
               <li className='cardText'>Sisaldab vähemalt 35 Järeltöötlusega fotot</li>
               <li className='cardText'>Veebigalerii fotodega</li>
+              <li className="cardText">Sobib 4-5 inimese pildistamiseks</li>
             </ul>
 
           </div>
