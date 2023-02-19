@@ -1,4 +1,5 @@
 import React from 'react'
+import './../../style/stilistika.css';
 
 import img1 from './../../img/stilistikaABC/1.png'
 import img2 from './../../img/stilistikaABC/2.png'
