@@ -6,7 +6,7 @@
 
 .pImage{
     width: 450px;
-    height: 450px;
+    height: 600px;
     margin: 10px;
     object-fit: cover;
     transition: all 0.5s;

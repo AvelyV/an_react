@@ -39,7 +39,7 @@ import p31 from './../../img/portfolio/p31.jpg';
 // import j3 from './../../img/portfolio/j3.jpg';
 // import j4 from './../../img/portfolio/j4.jpg';
 // import j5 from './../../img/portfolio/j5.jpg';
-// import j6 from './../../img/portfolio/j6.jpg';
+import j6 from './../../img/portfolio/j6.jpg';
 // import j7 from './../../img/portfolio/j7.jpg';
 // import j8 from './../../img/portfolio/j8.JPG';
 // import j9 from './../../img/portfolio/j9.JPG';
@@ -63,16 +63,17 @@ export default function Portfolio() {
         <img alt='xmas' src={j10} className='pImage'></img>
         <img alt='xmas' src={j11} className='pImage'></img> */}
 
-        <img alt='girl' src={p22} className='pImage'></img>
+        
         <img alt='girl' src={p23} className='pImage'></img>
-        <img alt='girl' src={p24} className='pImage'></img>
-        <img alt='girl' src={p25} className='pImage'></img>
-        <img alt='girl' src={p26} className='pImage'></img>
-        <img alt='girl' src={p27} className='pImage'></img>
-        <img alt='girl' src={p28} className='pImage'></img>
-        <img alt='girl' src={p29} className='pImage'></img>
-        <img alt='girl' src={p30} className='pImage'></img>
-        <img alt='girl' src={p31} className='pImage'></img>
+        <img alt='boy' src={p24} className='pImage'></img>
+        <img alt='siblings' src={p25} className='pImage'></img>
+        <img alt='woman' src={p26} className='pImage'></img>
+        <img alt='woman drinking cocktail' src={p27} className='pImage'></img>
+        <img alt='woman in bed' src={p28} className='pImage'></img>
+        <img alt='tea' src={p29} className='pImage'></img>
+        <img alt='tea' src={p30} className='pImage'></img>
+        <img alt='tea' src={p31} className='pImage'></img>
+        <img alt='kinkekaart' src={p22} className='pImage'></img>
 
 
 
@@ -97,6 +98,7 @@ export default function Portfolio() {
         <img alt='ballerina' src={p19} className='pImage'></img>
         <img alt='christmas elf' src={p20} className='pImage'></img>
         <img alt='girl' src={p21} className='pImage'></img>
+        <img alt='xmas' src={j6} className='pImage'></img>
       </div>
     </>
   )
