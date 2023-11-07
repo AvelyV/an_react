@@ -8,6 +8,7 @@ export default function Hinnakiri() {
   return (
     <>
       <h1 className='pageTitle'>Hinnakiri</h1>
+      <p style={{color: "red"}}>Alates November 2023 uus hinnakiri!</p>
 
 
       {/* 555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555 */}
@@ -244,7 +245,7 @@ export default function Hinnakiri() {
           <div className="offerCard">
             <br></br>
             <h3>Pakett Mini</h3>
-            <h5>Hind: 45€</h5>
+            <h5>Hind: 60€</h5>
             <p> Sisaldab:</p>
 
             <ul>
@@ -261,7 +262,7 @@ export default function Hinnakiri() {
           <div className="offerCard">
             <br></br>
             <h3>Pakett Classic </h3>
-            <h5>Hind: 100€</h5>
+            <h5>Hind: 120€</h5>
             <p> Sisaldab:</p>
             <ul>
               <li className="cardText"> 30min fotosessiooni </li>
@@ -275,7 +276,7 @@ export default function Hinnakiri() {
           <div className="offerCard">
             <br></br>
             <h3>Pakett Deluxe</h3>
-            <h5>Hind: 155€</h5>
+            <h5>Hind: 175€</h5>
             <p> Sisaldab:</p>
             <ul>
               <li className="cardText"> 1h fotosessiooni </li>
