@@ -149,7 +149,7 @@ export default function Hinnakiri() {
           <div className="offerCard">
             <br></br>
             <h3>Pakett Mini</h3>
-            <h5>Hind: 200€</h5>
+            <h5>Hind: 250€</h5>
             <p> Sisaldab:</p>
 
             <ul>
